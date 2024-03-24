@@ -23,6 +23,11 @@
     gap: 16px;
     .action-btn {
         padding: 10px;
+        border-radius: 4px;
+        &:hover {
+          background: #11161814;
+          border: 1px solid transparent;
+        }
     }
   }
 }
