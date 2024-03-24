@@ -1,0 +1,28 @@
+.base-header {
+  height: 56px;
+  width: 100%;
+  padding: 8px 0;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #F3F5F7;
+  .header-logo {
+    display: flex;
+    align-items: center;
+    .header-img {
+      padding: 5px 87px 5px 32px;
+    }
+    .header-title {
+        padding: 3px 0px 3px 32px;
+        width: calc(100vw - 280px - 272px);
+    }
+  }
+  .header-acction {
+    display: flex;
+    align-items: center;
+    padding: 0 32px;
+    gap: 16px;
+    .action-btn {
+        padding: 10px;
+    }
+  }
+}
