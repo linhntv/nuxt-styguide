@@ -1,0 +1,15 @@
+.base-button {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    align-items: center;
+    border-radius: 4px;
+    background: linear-gradient(90deg, #9C5EBA 0%, #1BB3C5 100%);
+    .btn-icon {
+        width: 20px;
+        height: 20px;
+    }
+    .btn-label {
+        color: white
+    }
+}

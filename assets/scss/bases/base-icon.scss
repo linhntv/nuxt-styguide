@@ -1,0 +1,76 @@
+.base-icon {
+    .filter_picton_blue_color {
+      filter: brightness(0) saturate(100%) invert(29%) sepia(58%) saturate(531%) hue-rotate(156deg)
+        brightness(94%) contrast(89%);
+    }
+    .filter_lynch_color {
+      filter: brightness(0) saturate(100%) invert(44%) sepia(12%) saturate(1061%) hue-rotate(167deg)
+        brightness(95%) contrast(83%);
+    }
+    .filter_night_shadz_color {
+      filter: brightness(0) saturate(100%) invert(31%) sepia(16%) saturate(4428%) hue-rotate(299deg)
+        brightness(87%) contrast(87%);
+    }
+    .filter_pickled_bluewood_color {
+      filter: brightness(0) saturate(100%) invert(25%) sepia(7%) saturate(2829%) hue-rotate(170deg)
+        brightness(90%) contrast(91%);
+    }
+    .filter_black_color {
+      filter: brightness(0) saturate(100%) invert(32%) sepia(14%) saturate(708%) hue-rotate(156deg)
+        brightness(92%) contrast(89%);
+    }
+    .filter_white_color {
+      filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7500%) hue-rotate(142deg)
+        brightness(93%) contrast(115%);
+    }
+    &:hover {
+      .hover-filter_picton_blue_color {
+        filter: brightness(0) saturate(100%) invert(29%) sepia(58%) saturate(531%) hue-rotate(156deg)
+          brightness(94%) contrast(89%);
+      }
+      .hover-filter_lynch_color {
+        filter: brightness(0) saturate(100%) invert(44%) sepia(12%) saturate(1061%) hue-rotate(167deg)
+          brightness(95%) contrast(83%);
+      }
+      .hover-filter_night_shadz_color {
+        filter: brightness(0) saturate(100%) invert(31%) sepia(16%) saturate(4428%) hue-rotate(299deg)
+          brightness(87%) contrast(87%);
+      }
+      .hover-filter_pickled_bluewood_color {
+        filter: brightness(0) saturate(100%) invert(25%) sepia(7%) saturate(2829%) hue-rotate(170deg)
+          brightness(90%) contrast(91%);
+      }
+      .hover-filter_black_color {
+        filter: brightness(0) saturate(100%) invert(32%) sepia(14%) saturate(708%) hue-rotate(156deg)
+          brightness(92%) contrast(89%);
+      }
+      .hover-filter_white_color {
+        filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7500%) hue-rotate(142deg)
+          brightness(93%) contrast(115%);
+      }
+    }
+    .rotate {
+      &_30 {
+        transform: rotate(30deg);
+      }
+      &_60 {
+        transform: rotate(60deg);
+      }
+      &_90 {
+        transform: rotate(90deg);
+      }
+      &_120 {
+        transform: rotate(120deg);
+      }
+      &_180 {
+        transform: rotate(180deg);
+      }
+      &_270 {
+        transform: rotate(270deg);
+      }
+      &_360 {
+        transform: rotate(360deg);
+      }
+    }
+  }
+  
