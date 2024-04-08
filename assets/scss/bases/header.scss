@@ -4,12 +4,13 @@
   padding: 8px 0;
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #F3F5F7;
+  justify-content: center;
+  gap: 20px;
   .header-logo {
     display: flex;
     align-items: center;
     .header-img {
-      padding: 5px 87px 5px 32px;
+      padding: 0 0 0 8px;
     }
     .header-title {
         padding: 3px 0px 3px 32px;
@@ -19,14 +20,23 @@
   .header-acction {
     display: flex;
     align-items: center;
-    padding: 0 32px;
-    gap: 16px;
+    gap: 6px;
     .action-btn {
         padding: 10px;
         border-radius: 4px;
+        display: flex;
+        gap: 6px;
+        align-items: center;
         &:hover {
           background: #11161814;
           border: 1px solid transparent;
+        }
+        &-label {
+          font-size: 14px;
+          color: #29292b;
+          display: flex;
+          align-items: center;
+          white-space: nowrap;
         }
     }
   }

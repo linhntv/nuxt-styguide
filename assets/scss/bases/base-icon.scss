@@ -1,4 +1,6 @@
 .base-icon {
+  display: flex;
+  align-items: center;
     .filter_picton_blue_color {
       filter: brightness(0) saturate(100%) invert(29%) sepia(58%) saturate(531%) hue-rotate(156deg)
         brightness(94%) contrast(89%);
